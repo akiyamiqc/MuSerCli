@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
             std::cerr << "Usage: client <host>" << std::endl;
             return 1;
         }
-        std::cout << "111" << std::endl;
+
         boost::asio::io_context io_context;
         tcp::resolver resolver(io_context);
 
