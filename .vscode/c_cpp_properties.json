@@ -27,8 +27,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:/Users/Aki-Pc/.nuget/packages/boost/1.78.0/lib/native/include"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
