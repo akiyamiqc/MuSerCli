@@ -5,4 +5,5 @@ g++ 1_1_sync_timer.cpp -o 1_1_sync_timer -lboost_system -static -pthread -lboost
 g++ 1_1_sync_timer.cpp -o 1_1_sync_timer -lboost_system -lboost_thread
 
 mac:
-clang 1_1_sync_timer.cpp -o 1_1_sync_timer -lstdc++ -std=c++17 -Wall
+clang  -lstdc++ -std=c++17 -Wall 1_1_sync_timer.cpp -o3 1_1_sync_timer
+clang -o3 -lstdc++ -std=c++17 1_1_sync_timer.cpp -o 1_1_sync_timer -Wall
