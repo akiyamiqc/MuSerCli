@@ -7,16 +7,19 @@
 #include <boost/asio.hpp>
 #include <boost/array.hpp>
 
-
 using boost::asio::ip::udp;
 
 std::string make_daytime_string()
 {
     using namespace std;
     time_t now = time(0);
+#if defined _WIN32
     char str[126];
     ctime_s(str, sizeof(str), &now);
     return str;
+#else
+    return ctime(&now);
+#endif
 }
 
 class udp_server
