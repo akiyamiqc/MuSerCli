@@ -1,7 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-.vscode
-.DS_Store
-mac
-win
-linux
