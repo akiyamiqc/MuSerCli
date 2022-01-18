@@ -1,2 +1,6 @@
+.vscode
+.DS_Store
+mac
+win
+linux
 
-src/mac/1.cpp
