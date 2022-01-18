@@ -1,6 +1,6 @@
 .vscode
 .DS_Store
-mac
+src/mac
 win
 linux
 
